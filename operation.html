@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="./css/tailwind.css">
   </head>
     <body>
-      <div class="mx-auto w-[1279.70px] h-[1007.50px] bg-gradient-to-b
-       from-violet-950 to-emerald-700 justify-center items-start relative">
+      <div class="w-[1279.70px] h-[1007.50px] bg-gradient-to-b
+       from-violet-950 to-emerald-700 justify-center items-start ">
         <!-- start welcome to SmartGenx bank and support section -->
         <div class="w-[1271px] h-[134px] justify-center items-center 
         gap-[668px] inline-flex">
@@ -33,7 +33,7 @@
               <div class="w-[60px] h-[60px] relative">
                 <div class="w-[60px] h-[60px] left-0 top-0 absolute 
                 rounded-full shadow border border-amber-300"></div>
-                <div class="w-9 h-9 left-[12px] top-[12px] absolute shadow"><img src="/img/bx_support.svg" alt=""></div>
+                <div class="w-9 h-9 left-[12px] top-[12px] absolute shadow"><img src="./img/bx_support.svg" alt=""></div>
               </div>
             </div>
           </div>
@@ -43,26 +43,22 @@
         
         <!-- start image smartGenx bank section -->
         <div class="mx-auto w-[536.70px] h-[220px] flex-col justify-center items-center ">
-            <img class=" w-[536.70px] h-[220px]" src="/img/smartlogo.png" />
+            <img class=" w-[536.70px] h-[220px]" src="./img/smartlogo.png" />
         </div>
         <!-- end image smartGenx bank section -->
             
-       <div class="flex flex-row justify-center mt-20">
-        <img class="rounded-full w-40 h-40  border-4 shadow-2xl  border-amber-300" src="/img/profile.png" alt="">
-       </div>
-       <h2 class="text-sky-900 text-6xl font-semibold flex justify-center items-center relative  w-96 h-32   bg-amber-300 rounded-r-full">Balance</h2>
-       <div class="left-1/3 relative w-fit place-content-center">
-        <div class="flex bottom-10 relative justify-center">
-          <h1 class="text-6xl text-stone-300">Salem Alnahdi</h1>
-         </div>
-         <div class=" grid grid-cols-2 gap-4 gap-x-0 place-content-center text-4xl  ">
-           <span class=" text-sky-900 flex justify-self-center bg-amber-300 rounded-l-lg w-20">USD</span>
-           <span class=" text-stone-300 flex justify-start">$35000000</span>
-           <span  class="text-sky-900 flex justify-self-center bg-amber-300 rounded-l-lg w-20">SR</span>
-           <span class="text-stone-300 flex justify-start">$35000000</span>
-          </div>
-       </div>
-       <button class="text-sky-900 text-4xl font-semibold flex justify-center items-center absolute mt-80 bottom-4 left-5 w-[386px] h-28 px-[89px] py-3 bg-amber-300 rounded-[50px]"><img src="/img/angle-left.png" alt=""><a href="/operation.html">Back</a></button>
+        <!-- start of "Select the operation" text section -->
+        <div class="justify-center items-center flex my-20 p-3 text-stone-300 text-5xl font-bold capitalize">Select the operation</div>
+        <!-- end of " Select the operation" text section -->
+
+        <div class=" grid grid-cols-2 gap-20 justify-items-center text-5xl font-semibold text-sky-900 text-center">
+          <button class="w-[386px] h-[100px] px-[89px] py-3 bg-amber-300 rounded-[50px]"><a href="./withdraw.html">Withdraw</a></button>
+          <button class="w-[386px] h-[100px] px-[89px] py-3 bg-amber-300 rounded-[50px]"><a href="./balance.html">Balance</a></button>
+          <button class="w-[386px] h-[100px] px-[89px] py-3 bg-amber-300 rounded-[50px]">Doposit</button>
+          <button class="flex justify-center items-center w-[386px] h-[100px] px-[89px] py-3 bg-amber-300 rounded-[50px]">Transformation</button>
+        </div>
+
+        
       </div>
 </body>
 </html>
